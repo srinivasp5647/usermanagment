@@ -32,7 +32,7 @@
 <div class="wrapper">
     <div class="text-center mt-4 name"> Register </div>
 
-    <form method="post" action="/register/" style="padding-top: 15%; padding-left: 15%;">
+    <form method="post" action="/management/register/" style="padding-top: 15%; padding-left: 15%;">
         {% csrf_token %}
         {% for fields in form %}
         <div class="form-group">
